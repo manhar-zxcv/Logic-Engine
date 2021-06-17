@@ -36,6 +36,8 @@ def simplifyProp(lst):
                     while len(operatorStack) and precedence[operatorStack[-1]] >= precedence[letter]:
                         final.append(operatorStack.pop())
                     operatorStack.append(letter)
+        while len(operatorStack):
+            final.append(operatorStack.pop())
         ans1.append(''.join(final))
     return ans1
 
