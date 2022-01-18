@@ -1,5 +1,5 @@
 # Logic Engine
-Finds all possible solutions for a CNF or Proposition
+Finds all possible solutions for a CNF or a Proposition
 
 
 <!-- ABOUT THE PROJECT -->
